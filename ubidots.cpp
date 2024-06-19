@@ -2,9 +2,9 @@
 #include <ESP8266WiFi.h>
 #include <DHT.h>
 
-const char* UBIDOTS_TOKEN = "BBUS-wpyqbdBK8B3kGW8uKIX2MeHLo7hMVy";  // Put here your Ubidots TOKEN
-const char* WIFI_SSID = "SHEPO";                                    // Put here your Wi-Fi SSID
-const char* WIFI_PASS = "01024063";                                 // Put here your Wi-Fi password
+const char* UBIDOTS_TOKEN = "xxxxxxxxx";  // Put here your Ubidots TOKEN
+const char* WIFI_SSID = "xxxxxxx";                                    // Put here your Wi-Fi SSID
+const char* WIFI_PASS = "xxxxxxxx";                                 // Put here your Wi-Fi password
 
 Ubidots ubidots(UBIDOTS_TOKEN);
 float hum = 0.0, temp_c = 0.0, temp_f = 0.0;
